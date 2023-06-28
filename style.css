@@ -15,7 +15,7 @@
   }
   
   .navbar_logo img {
-      width: 250px;
+      width: 15rem;
       z-index: 10;
   }
   
@@ -116,7 +116,7 @@
   }
   
   .page_container1_1 img {
-      height: 300px;
+      height: 15rem;
       border-radius: 50%;
       margin-top: 8rem;
   }
@@ -179,8 +179,8 @@
   }
   
   .container2_2 .about-section {
-      padding: 1rem 1.5rem;
-      margin: 1.75rem 1.5rem;
+      padding: 1rem auto;
+      margin: 1.75rem auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -319,7 +319,7 @@
       margin-top: 2.5rem;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
       .container5 .item1 {
           position: relative;
       }
@@ -332,18 +332,18 @@
       }
   }
   
-  @media (min-width:601) and (max-width: 1200px) {
+  @media (min-width:501) and (max-width: 1200px) {
       .container5 .item1 {
           position: relative;
-          width: 25rem;
+          /* width: 25rem; */
       }
       .container5 .item2 {
-          width: 25rem;
+          /* width: 25rem; */
           position: relative;
       }
       .container5 .item3 {
           position: relative;
-          width: 25rem;
+          /* width: 25rem; */
           margin-bottom: 3rem;
       }
   }
