@@ -322,15 +322,12 @@
   @media (max-width: 600px) {
       .container5 .item1 {
           position: relative;
-          width: 25rem;
       }
       .container5 .item2 {
-          width: 25rem;
           position: relative;
       }
       .container5 .item3 {
           position: relative;
-          width: 25rem;
           margin-bottom: 3rem;
       }
   }
