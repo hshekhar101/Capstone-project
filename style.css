@@ -163,6 +163,7 @@
       font-family: 'Playfair Display', serif;
       font-weight: bolder;
       text-align: center;
+      padding-bottom: 3rem;
   }
   
   .container2_1 span {
@@ -319,7 +320,7 @@
       margin-top: 2.5rem;
   }
   
-  @media (max-width: 500px) {
+  @media (max-width: 640px) {
       .container5 .item1 {
           position: relative;
       }
@@ -329,10 +330,18 @@
       .container5 .item3 {
           position: relative;
           margin-bottom: 3rem;
+      }
+      .container2_2 .about-section {
+          margin-right: 0px;
+          margin-left: 0px;
+      }
+      .contact-head img {
+          margin-top: 1rem;
+          height: 40px;
       }
   }
   
-  @media (min-width:501) and (max-width: 1200px) {
+  @media (min-width:641) and (max-width: 1200px) {
       .container5 .item1 {
           position: relative;
           /* width: 25rem; */
@@ -345,6 +354,10 @@
           position: relative;
           /* width: 25rem; */
           margin-bottom: 3rem;
+      }
+      .contact-head img {
+          height: 60px;
+          padding-right: 3rem;
       }
   }
   
@@ -361,6 +374,10 @@
           position: relative;
           width: 50rem;
           margin-bottom: 3rem;
+      }
+      .contact-head img {
+          height: 60px;
+          padding-right: 3rem;
       }
   }
   /* Contact */
@@ -393,9 +410,4 @@
       justify-content: space-between;
       align-content: center;
       padding-bottom: 1rem;
-  }
-  
-  .contact-head img {
-      height: 60px;
-      padding-right: 3rem;
   }
