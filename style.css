@@ -322,6 +322,10 @@
   }
   
   @media (max-width: 640px) {
+      .navbar_logo img {
+          width: 12rem;
+          height: 3rem;
+      }
       .container5 .item1 {
           position: relative;
       }
