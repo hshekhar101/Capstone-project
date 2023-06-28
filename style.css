@@ -250,7 +250,7 @@
   
   .container4 h1 {
       text-align: center;
-      font-size: 4rem;
+      font-size: 3.6rem;
       font-family: 'Playfair Display', serif;
       margin-top: 0rem;
       margin-bottom: 5rem;
@@ -280,7 +280,8 @@
   
   .container4_2 .item {
       padding: 2rem;
-      margin: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
       background-color: #e0e4ea;
   }
   
@@ -331,9 +332,27 @@
           position: relative;
           margin-bottom: 3rem;
       }
+      .container2_2 {
+          padding-left: 0px;
+          padding-right: 0px;
+      }
       .container2_2 .about-section {
           margin-right: 0px;
           margin-left: 0px;
+      }
+      .container2_2 .about-section p {
+          width: 18rem;
+      }
+      .container3_2 .item {
+          padding-left: 0px;
+          padding-right: 0px;
+      }
+      .container3_2 .item h2 {
+          padding-left: 2rem;
+      }
+      .container3_2 .item p {
+          width: 18rem;
+          padding-left: 2rem;
       }
       .contact-head img {
           margin-top: 1rem;
