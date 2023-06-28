@@ -80,6 +80,10 @@
     }
     /* Dropdown Menu */
     
+    .one {
+        display: none;
+    }
+    
     .dropdown_menu {
         display: none;
         position: fixed;
@@ -124,9 +128,6 @@
             display: block;
             position: absolute;
             right: 2.5rem;
-        }
-        .dropdown_menu {
-            display: block;
         }
     }
     /* Home Page */
