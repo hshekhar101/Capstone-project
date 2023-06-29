@@ -210,7 +210,7 @@
 
     <div class="container7" id="contact">
         <div class="container8">
-            <h1>Contact Me</h1>
+            <h1>Subscribe Me</h1>
             <form action="/" method="post">
                 <label for="firstName">First Name</label>
                 <input type="text" id="fullname" name="firstname" placeholder="Your first name" required>
@@ -218,13 +218,36 @@
                 <input type="text" id="fullname" name="lastname" placeholder="Your last name" required>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your email" required>
-                <label for="message">Message Me!</label>
+                <label for="message">Message</label>
                 <textarea id="message" name="message" rows="4" required></textarea><br>
                 <div class="btn">
-                    <button type="submit">Sign Me Up!</button>
+                    <button type="submit">Send</button>
                 </div>
             </form>
         </div>
+        <div class="social">
+            <div class="social1">
+                <a class="item" href="#" onclick="openProfile('instagram')">
+                    <img src="./public/assets/instagram.png" alt="Instagram">
+                </a>
+            </div>
+            <div class="social1">
+                <a class="item" href="#" onclick="openProfile('github')">
+                    <img src="./public/assets/github.png" alt="GitHub">
+                </a>
+            </div>
+            <div class="social1">
+                <a class="item" href="#" onclick="openProfile('twitter')">
+                    <img src="./public/assets/twitter.png" alt="Twitter">
+                </a>
+            </div>
+            <div class="social1">
+                <a class="item" href="#" onclick="sendEmail()">
+                    <img src="./public/assets/gmail.png" alt="Email">
+                </a>
+            </div>
+        </div>
+    </div>
     </div>
     <footer class="footer">
         <p>&copy; 2023 HIMANSHU <br>ALL RIGHTS RESERVED</p>
