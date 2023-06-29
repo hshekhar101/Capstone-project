@@ -2,7 +2,7 @@
 .DS_Store
 __MACOSX
 secret.txt
-
+index.js
 
 # Logs
 logs
