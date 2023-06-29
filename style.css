@@ -4,6 +4,10 @@
       scroll-behavior: smooth;
   }
   
+  #root {
+      overflow: hidden;
+  }
+  
   .navbar {
       display: flex;
       justify-content: space-between;
