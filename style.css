@@ -4,10 +4,6 @@
       scroll-behavior: smooth;
   }
   
-  #root {
-      /* overflow: hidden; */
-  }
-  
   .navbar {
       display: flex;
       justify-content: space-between;
@@ -346,8 +342,8 @@
       }
       .container2_2 .about-section p {
           /* width: 16rem; */
-          padding-left: 1.5rem;
-          padding-right: 1.5rem;
+          padding-left: 1.3rem;
+          padding-right: 1.3rem;
           width: 18rem;
           margin-right: 0px;
           margin-left: 0px;
