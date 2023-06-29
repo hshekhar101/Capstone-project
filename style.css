@@ -340,8 +340,10 @@
           padding-left: 0px;
           padding-right: 0px;
       }
-      .container2_2 p {
-          width: 18rem;
+      .container2_2 .about-section p {
+          /* width: 16rem; */
+          padding-left: 1rem;
+          padding-right: 1.5rem;
       }
       .container2_2 .about-section {
           margin-right: 0px;
@@ -355,11 +357,11 @@
           padding-right: 0px;
       }
       .container3_2 .item h2 {
-          padding-left: 2rem;
+          padding-left: 1.2rem;
       }
       .container3_2 .item p {
           width: 18rem;
-          padding-left: 2rem;
+          padding-left: 1.2rem;
       }
       .contact-head img {
           margin-top: 1rem;
