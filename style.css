@@ -7,15 +7,19 @@
   .navbar {
       display: flex;
       justify-content: space-between;
-      background-color: #F4F4F2;
+      background-color: rgba(209, 215, 222, 0.8);
       align-items: center;
       width: 100%;
+      height: 3.2rem;
       position: fixed;
       z-index: 1;
   }
   
   .navbar_logo img {
-      width: 15rem;
+      position: relative;
+      top: 3px;
+      left: 10px;
+      height: 2.5rem;
       z-index: 10;
   }
   
@@ -102,7 +106,7 @@
   /* Home Page */
   
   .container1 {
-      background-color: #e2e5ed;
+      background-color: #dfe8f1;
       width: 100%;
       align-items: center;
   }
@@ -180,12 +184,14 @@
   }
   
   .container2_2 .about-section {
-      padding: 1rem auto;
+      padding: 1rem 1.3rem 1.3rem 1rem;
       margin: 1.75rem auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-color: #dfe8f1;
+      border-radius: 1.5rem;
   }
   
   .about-section h3 {
@@ -207,7 +213,7 @@
   /* Work */
   
   .container3 {
-      background-color: #e2e5ed;
+      background-color: #dfe8f1;
   }
   
   .container3_1 h1 {
@@ -237,8 +243,11 @@
   }
   
   .container3_2 .item {
-      flex-basis: 25rem;
+      flex-basis: 24rem;
       padding: 2rem;
+      margin: 0rem 2rem 2rem 2rem;
+      border-radius: 1.5rem;
+      background-color: #f7f7f9;
   }
   /* Skills */
   
@@ -256,17 +265,17 @@
       margin-bottom: 5rem;
   }
   
-  .container4 img {
-      width: 5rem;
-      padding-top: 2rem;
-  }
-  
   .container4_1 {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
       align-content: center;
       padding-bottom: 3rem;
+  }
+  
+  .container4_1 img {
+      margin: 1rem;
+      border-radius: 50%;
   }
   
   .container4_2 {
@@ -282,7 +291,8 @@
       padding: 2rem;
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
-      background-color: #e0e4ea;
+      background-color: #dfe8f1;
+      border-radius: 1.5rem;
   }
   
   .container4_2 h2 {
@@ -297,7 +307,7 @@
   /* Testimonials */
   
   .container5 {
-      background-color: #ffffff;
+      background-color: #dfe8f1;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -307,24 +317,26 @@
   }
   
   .container5 img {
-      height: 150px;
-      border-radius: 50%;
-      float: left;
-      margin: 0rem 2rem;
+      height: 8rem;
+      width: 8rem;
+      border-radius: 100%;
+      margin: 0rem 2rem 0rem 1rem;
   }
   
   .container5 .item {
       padding: 2rem;
       border: 2px solid white;
-      background-color: #eaf0fa;
-      border-radius: 2%;
+      background-color: #f7f7f9;
+      border-radius: 1.5rem;
       margin-top: 2.5rem;
   }
   
   @media (max-width: 640px) {
       .navbar_logo img {
-          width: 12rem;
-          height: 3rem;
+          position: relative;
+          top: 3px;
+          left: 10px;
+          height: 2rem;
       }
       .container5 .item1 {
           position: relative;
@@ -363,6 +375,9 @@
           margin-top: 1rem;
           height: 40px;
       }
+      .container5 .item h4 {
+          padding-top: 3rem;
+      }
   }
   
   @media (min-width:641) and (max-width: 1200px) {
@@ -380,12 +395,19 @@
           margin-bottom: 3rem;
       }
       .contact-head img {
-          height: 60px;
+          height: 10rem;
+          width: 7rem;
           padding-right: 3rem;
       }
   }
   
   @media(min-width: 1201px) {
+      .container5 .item img {
+          float: left;
+      }
+      .container5 .item h4 {
+          padding-top: 3rem;
+      }
       .container5 .item1 {
           position: relative;
           width: 50rem;
@@ -398,10 +420,6 @@
           position: relative;
           width: 50rem;
           margin-bottom: 3rem;
-      }
-      .contact-head img {
-          height: 60px;
-          padding-right: 3rem;
       }
   }
   /* Contact */
@@ -434,4 +452,10 @@
       justify-content: space-between;
       align-content: center;
       padding-bottom: 1rem;
+  }
+  
+  .contact-head img {
+      height: 2rem;
+      position: relative;
+      right: 10px;
   }
