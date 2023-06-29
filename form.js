@@ -14,10 +14,10 @@ function openProfile(profile) {
             window.open('https://www.instagram.com/h_shekhar_302', '_blank');
             break;
         case 'github':
-            window.open('https://github.com/hiitgmanshu', '_blank');
+            window.open('https://github.com/hshekhar101', '_blank');
             break;
         case 'twitter':
-            window.open('https://twitter.com/Himansh52472191', '_blank');
+            window.open('https://twitter.com/h_shekhar2105', '_blank');
             break;
         default:
             break;
