@@ -3,7 +3,6 @@
 __MACOSX
 secret.txt
 node_modules/
-index.js
 
 # Logs
 logs
