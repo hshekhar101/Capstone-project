@@ -9,7 +9,7 @@ const port = process.env.PORT || 8080;
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://hshekhar:Vopss5AOMLcmapyj@cluster0.97c1rrt.mongodb.net/portfolio");
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.97c1rrt.mongodb.net/portfolio");
 
 mongoose.connection.on('connected', () => {
     console.log("Connected to MongoDB successfully");
